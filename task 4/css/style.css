@@ -1,0 +1,98 @@
+@import url(reset.css);
+body {background-color: gold;
+}
+.header{ color:black;
+	height: 100px;
+	background-color: crimson;
+	position: center;
+	size: 100px;
+
+}
+#homePage{
+	text-align: center;
+	 text-transform: uppercase;
+	 font-weight: bold;
+	font-family: 'Comfortaa', cursive;
+}
+
+header p{
+	
+	font-weight:lighter;
+}
+
+.menu{
+	height: 100px;
+	background-color: darkorange;
+	position: center;
+	size: 100px;
+    font-family: serif;
+
+}
+
+  
+.header-container{
+   width: 1200px;
+	height: 600px;
+	background-image: url(../img/bmstu.jpg);
+    background-position: center;  	
+    background-attachment: scroll;
+    background-position: center;
+	background-size: 600px;
+	background-repeat: no-repeat;
+	
+
+}
+  
+  .firstSection {
+   height: 300px;
+	background-color: forestgreen;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family:sans-serif;
+	 }
+.firstSection h2{
+	font-weight: bold;
+	font-family: serif;
+}
+
+
+  .secondSection {
+   height: 800px;
+	background-color: lightblue;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family:sans-serif;
+  }
+
+  .secondSection h3{
+	font-weight: bold;
+	font-family: serif;
+}
+
+ .thirdSection{
+ 	height: 50px;
+	background-color: dodgerblue;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family:sans-serif;
+
+ }
+
+ .thirdSection h4{
+	font-weight: bold;
+	font-family: serif;
+}
+
+ .footer{
+ 	height: 30px;
+	background-color: darkviolet;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: hotpink;
+	font-weight: bold;
+ }
+

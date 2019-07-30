@@ -1,6 +1,4 @@
 @import url(normalize.css);
-
-.page h1{
-	background:lightblue;
-	color: white;
-}
+ body{
+ 	background: lightblue;
+ }

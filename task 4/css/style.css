@@ -31,13 +31,13 @@ header p{
 
   
 .header-container{
-      width: 1265px;
-    height: 400px;
+     
 	background-image: url(../img/Bmstu_1.jpg);
     background-position: center;  	
     background-attachment: scroll;
     background-position: center;
-	  
+	  width: 1265px;
+    height: 400px;
 	background-repeat: no-repeat;
 	
 
@@ -52,6 +52,8 @@ header p{
 	font-family:sans-serif;
 	 }
 .firstSection h2{
+	color: white;
+	background: blue;
 	font-weight: bold;
 	font-family: serif;
 }
@@ -67,8 +69,16 @@ header p{
   }
 
   .secondSection h3{
+  	color: white;
+	background: blue;
 	font-weight: bold;
 	font-family: serif;
+}
+
+.secondSection li1{
+	color: white;
+	background: blue;
+
 }
 
  .thirdSection{
@@ -82,6 +92,8 @@ header p{
  }
 
  .thirdSection h4{
+ 	color: white;
+	background: blue;
 	font-weight: bold;
 	font-family: serif;
 }

@@ -55,7 +55,8 @@ header p{
 	color: white;
 	background: blue;
 	font-weight: bold;
-	font-family: serif;
+	font-family: 'Saira Stencil One', cursive;
+	height: 30px;
 }
 
 
@@ -69,20 +70,23 @@ header p{
   }
 
   .secondSection h3{
+  	height: 30px;
   	color: white;
 	background: blue;
 	font-weight: bold;
-	font-family: serif;
+	font-family: 'Saira Stencil One', cursive;
 }
 
 .secondSection li1{
 	color: white;
 	background: blue;
+	height: 30px;
+	font-family: 'Saira Stencil One', cursive;
 
 }
 
  .thirdSection{
- 	height: 50px;
+ 	height: 80px;
 	background-color: dodgerblue;
 	background-position: center;
 	background-size: cover;
@@ -92,10 +96,11 @@ header p{
  }
 
  .thirdSection h4{
+ 	height: 30px;
  	color: white;
 	background: blue;
 	font-weight: bold;
-	font-family: serif;
+	font-family: 'Saira Stencil One', cursive;
 }
 
  .footer{

@@ -31,13 +31,13 @@ header p{
 
   
 .header-container{
-   width: 1200px;
-	height: 600px;
-	background-image: url(../img/bmstu.jpg);
+      width: 1265px;
+    height: 400px;
+	background-image: url(../img/Bmstu_1.jpg);
     background-position: center;  	
     background-attachment: scroll;
     background-position: center;
-	background-size: 600px;
+	  
 	background-repeat: no-repeat;
 	
 

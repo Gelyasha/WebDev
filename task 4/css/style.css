@@ -119,3 +119,9 @@ header p{
 	font-weight: bold;
 	font-family: 'Saira Stencil One', cursive;
 }
+
+.menu-container li {
+		display: inline;
+		
+		}
+             

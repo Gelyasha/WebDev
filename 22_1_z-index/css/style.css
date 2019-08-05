@@ -1,0 +1,12 @@
+@import url(reset.css);
+body{
+	background: white;
+}
+.sectionText{
+	background: black;
+	color: white;
+}
+body h1{
+	background: black;
+	color: white;
+}

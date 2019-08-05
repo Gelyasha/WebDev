@@ -20,12 +20,12 @@ a {
 }
 .logo {
   font-size: 20px;
-  display: none;
+  display: inline-block;
   width: 200px;
 }
 .menu {
   font-size: 16px;
-  display: block;
+  display: inline-block;
 }
 
 .menu li {
@@ -43,7 +43,7 @@ a {
   width: 200px;
   margin-right: 10px;
   background-color: black;
-  display: block;
+  display: inline-block;
   box-sizing: border-box;
   padding: 20px;
   font-size: 16px;

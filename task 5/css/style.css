@@ -1,0 +1,73 @@
+@import url(reset.css);
+body {background-color: white;
+}
+.header{ color:white;
+	padding-bottom: 50px;
+	width: 100%;
+	box-sizing: border-box;
+	background-color: purple;
+	position: fixed;
+	height: 50px;
+	text-align: center;
+	 text-transform: uppercase;
+	z-index: 1;
+
+}
+
+ .block{
+ 	display: inline-block;
+ 	width: 200px;
+    padding: 50px 50px 50px 50px;
+ 	border: 10px dotted pink;
+ 	margin: 100px;
+ 	box-sizing: border-box;
+ 	vertical-align: top;
+}
+ 
+ 
+
+.firstSection p{
+	
+	padding-top: 20px;
+
+}
+
+
+ .firstSection h1{
+	text-align: center;
+	 text-transform: uppercase;
+	 text-decoration: underline;
+	  font-weight: bold;
+}
+
+ .secondSection p{
+	padding-top: 20px;
+}
+
+.secondSection h2{
+	text-align: center;
+	 text-transform: uppercase;
+	 text-decoration: underline;
+	  font-weight: bold;
+}
+ 
+ .thirdSection p{
+	padding-top: 20px;
+}
+ 
+ .thirdSection h3{
+	text-align: center;
+	 text-transform: uppercase;
+	 text-decoration: underline;
+	 font-weight: bold;
+}
+
+ .footer{
+ 	color:white;
+    height: 50px;
+   
+	background-color: purple;
+	position: center;
+	
+ }
+

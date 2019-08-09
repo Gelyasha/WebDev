@@ -1,12 +1,35 @@
 @import url(reset.css);
-body{
-	background: white;
+
+.outer{
+	height: 600px;
+	border: 2px solid red;
+	position: relative;
+
 }
-.sectionText{
-	background: black;
-	color: white;
+
+.first, .second, .third{
+	width: 200px;
+	height: 600px;
+	border-radius: 100px;
 }
-body h1{
-	background: black;
-	color: white;
+
+.first{
+	background-color: red;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 2;
 }
+.second{
+	background-color: blue;
+	position: absolute;
+	bottom: 150px;
+	right: 0;
+	z-index: 1;
+}
+.third{
+	background-color: green;
+	position: absolute;
+	bottom: 250px;
+	right: 0;
+}	

@@ -1,0 +1,74 @@
+@import url(reset.css);
+
+/*@keyframes moving {
+	from{
+		top:0;
+		left: 0;
+      }
+    to{
+    	top: 300px;
+    	left:500px;
+    	background-color: green;
+    }  
+
+}
+
+body{
+	background-color: red;
+}
+
+.ball {
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+	border-radius: 100px;
+    position: relative;
+    animation-name: moving;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: .5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+}*/
+
+@keyframes rotate {
+            /*задайте ваш keyframe здесь*/
+            from { transform: rotate(0deg); } 
+            to { transform: rotate(360deg); } 
+        }
+        .page {
+          /* эти единицы измерения мы изучим чуть похже */
+            width: 100vw;
+            height: 100vh;
+            background-image: url(http://pa7lux.ru/mcs/space_pattern.jpg);
+            display: flex;
+            position: relative;
+        }
+        .sun {
+            width: 300px;
+            height: 300px;
+            background-image: url(http://pa7lux.ru/mcs/sun.png);
+            background-size: cover;
+            background-position: center;
+            margin: auto;
+        }
+        .earth {
+            width: 400px;
+            height: 400px;
+            background-image: url(http://pa7lux.ru/mcs/earth.png);
+            background-size: 50px;
+            background-repeat: no-repeat;
+            background-position: right top;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -200px;
+            margin-left: -200px;
+            /* вызовите вашу анимацию здесь */
+            animation-name: rotate; 
+            animation-duration: 8s; 
+            animation-iteration-count: infinite; 
+            animation-timing-function: linear;
+        }
+

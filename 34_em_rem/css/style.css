@@ -1,5 +1,13 @@
 @import url(reset.css);
 
-body{
-	background-color: red;
+.outer{
+	font-size: 20px;
+}
+
+.outer h1{
+	font-size: 2em;
+}
+
+.outer p{
+	font-size: 2rem;
 }

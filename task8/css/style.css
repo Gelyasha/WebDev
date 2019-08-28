@@ -12,6 +12,11 @@
 	text-transform: uppercase;
 }
 
+.column h1{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
 .footer{
 	height: 30px;
 	width: 100%;

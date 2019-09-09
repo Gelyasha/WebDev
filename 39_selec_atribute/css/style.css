@@ -1,0 +1,11 @@
+@import url(reset.css);
+
+img[src="https://vean-tattoo.com/images/Eskizy/Polinezija/Jeskizy_polinezija_1.jpg"]
+ {
+ 	width: 300px;
+}
+
+img[alt="japan"]
+{
+	width: 600px;
+}

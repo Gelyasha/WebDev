@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Form</title> 
+	<meta charset="utf-8">
+	<meta description= "Boilerplate code">
+	<meta keywords="boilerplate, form">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="page">
+		<form >
+			<form method = "POST" action = " http://free.allforms.mailjol.net/u/01a4838c.php ">
+			<div class="column one">
+			<fieldset class="personal">
+				<label for="fio">Ваше имя</label>
+				<input type="text" name="fio" placeholder="Виталя из ЛАУД">
+				<label for="instagram">Ваш Инстаграм</label>
+				<input type="instagram" name="instagram" placeholder="@example">
+				<label for="group">Любимая группа</label>
+				<input type="group" name="group" placeholder="МС Сенечка">
+				<label for="date">Дата рождения</label>
+				<input type="date" name="date" placeholder="20.09.2000">
+
+			</fieldset>
+		</div>
+			<div class="column two">
+			<fieldset class="type">
+				
+				<label for="client">Никаких больше вечеринок?</label>
+				<input type="radio" name="client"> <span>Да</span>
+				<input type="radio" name="client"><span>Нет</span>
+				<label for="purpose">Род вашей деятельности?</label>
+				<select name="purpose" >
+					<option value="good">Учусь</option>
+					<option value="good">Работаю</option>
+					<option value="good">Наслаждаюсь жизнью</option>
+				</select>
+			</fieldset>
+            <fieldset class="message">
+            	<label for="message">Расскажите про вашу песню лета</label>
+            	<textarea name="message">(Только не Пчеловод, пожалуйста)</textarea>
+            	<input type="checkbox" checked="true"><span>Согласен(-а) не читая</span>
+            </fieldset>
+            
+            <input type="submit">
+            </div>
+		</form>
+	</div>
+</body>
+</html>
